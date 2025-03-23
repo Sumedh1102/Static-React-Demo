@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    font-family: inter, sans-serif;
+    background: #282D35;
+    color: white;
+    margin : 0
+}
+
+
+
+header{
+    height : 90px;
+    background-color :#23272F;
+    padding : 30px 25px;
+}
+
+nav {
+ display : flex;
+ align-items : center ;
+ height : 100%;
+
+}
+.imgstyle {
+    width : 90px;
+    margin-right : 7px;
+
+}
+
+.Navspan{
+     color : #61DAFB;
+     font-size: 1.6rem
+}
+
+main {
+    padding : 60px 30px;
+    background-image : url(/public/imagecroped.png);
+    background-repeat: no-repeat;
+    background-position-x : right;
+    background-position-y : bottom;
+
+}
+
+main > h1 {
+    margin: 0;
+    font-size : 3rem
+}
+
+.Facts {
+    margin-top : 40px;
+    max-width : 800px;
+}
+
+.Facts > li {
+    margin-block : 20px;
+    line-height : 30px;
+    font-size : 23px;
+}
+
+.Facts > li::marker {
+    color : #61DAFB;
+    font-size : 2rem;
+}
