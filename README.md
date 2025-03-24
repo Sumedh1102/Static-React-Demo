@@ -6,4 +6,6 @@ This is a simple static web page built using React.js. It is my first project to
 ## Installation  
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/your-username/repo-name.git
+   git clone https://github.com/Sumedh1102/Static-React-Demo.git
+
+
